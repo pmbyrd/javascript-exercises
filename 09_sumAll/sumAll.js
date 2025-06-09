@@ -6,7 +6,7 @@ const sumAll = function (a, b) {
     const numbers = range(a, b)
     console.log(range)
     const intialValue = 0
-    const sumWithIntialValue = numbers.reduce(
+    const Value = numbers.reduce(
         (accumulator, currentValue) => accumulator + currentValue, intialValue
     )
     console.log(sumWithIntialValue)
